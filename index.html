@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Capsule Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Time Capsule Explorer</h1>
+    <p>Discover the past or imagine the future by choosing a year below!</p>
+  </header>
+  <main>
+    <form>
+      <label for="year">Choose a Year:</label>
+      <input type="range" id="year" name="year" min="1900" max="2100" value="2024">
+      <p id="display-year">2024</p>
+    </form>
+    <div id="time-content">
+      <p>Move the slider to choose a year!</p>
+    </div>
+  </main>
+  <footer>
+    <p>Time Capsule Explorer © 2024</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
